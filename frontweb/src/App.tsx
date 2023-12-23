@@ -1,17 +1,9 @@
-import Navbar from 'components/Navbar';
-import GithubSearch from 'pages/GithubSearch';
-import 'assets/styles/custom.scss';
+import "assets/styles/custom.scss";
 import "./App.css";
-
-
+import Routes from "Routes";
 
 const App = () => {
-  return (
-    <>
-    <Navbar/>
-    <GithubSearch/>
-    </>
-  )
+  return <Routes />;
 };
 
 export default App;

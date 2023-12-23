@@ -1,18 +1,18 @@
-import Navbar from "components/Navbar";
+import { Link } from "react-router-dom";
 import ButtonIcon from "components/ButtonIcon";
 
 import "./styles.css";
 
-
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container">
         <div className="home-content-container">
           <h1>Desafio Github API</h1>
           <p>DevSuperior - Escola de programação</p>
-          <ButtonIcon text="Começar"/>
+          <Link to="/githubsearch">
+            <ButtonIcon text="Começar" />
+          </Link>
         </div>
       </div>
     </>

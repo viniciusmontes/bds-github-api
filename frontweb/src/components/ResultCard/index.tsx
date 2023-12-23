@@ -3,10 +3,9 @@ import "./styles.css";
 type Props = {
   title: string;
   description: string;
-  imgUrl?: string
 };
 
-const ResultCard = ({ title, description, imgUrl}: Props) => {
+const ResultCard = ({ title, description}: Props) => {
   return (
     <div className="result-container">
       <div className="result-container-info">

@@ -11,7 +11,11 @@
 .github-search-card h1 {
   font-size: 38px;
 }
-.github-search-card input {
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-container input {
   width: 298px;
   height: 40px;
   border-radius: 4px;
@@ -31,10 +35,6 @@
   font-weight: 700;
   color: #fff;
   background: #1890ff;
-}
-.form-container {
-  display: flex;
-  flex-direction: column;
 }
 .github-result-card {
   display: flex;

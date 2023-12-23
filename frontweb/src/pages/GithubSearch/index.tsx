@@ -1,8 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
+import ResultCard from "components/ResultCard";
 
 import "./styles.css";
-import ResultCard from "components/ResultCard";
 
 type FormData = {
   github: string;
@@ -20,7 +20,7 @@ const GithubSearch = () => {
   const [github, setGitHub] = useState<Github>();
 
   const [formData, setFormData] = useState<FormData>({
-    github: "",
+    github: " ",
   });
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
