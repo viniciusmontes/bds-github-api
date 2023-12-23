@@ -1,0 +1,56 @@
+.github-search-container {
+  padding: 50px 100px;
+}
+.github-search-card {
+  padding: 55px 30px 62px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6f7ff;
+  border-radius: 16px;
+}
+.github-search-card h1 {
+  font-size: 38px;
+}
+.github-search-card input {
+  width: 298px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 12px;
+  padding: 10px;
+  border-style: none;
+}
+.github-search-card button {
+  width: 101px;
+  height: 40px;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 40px;
+  background: #1890ff;
+}
+.github-search-card button:hover {
+  font-weight: 700;
+  color: #fff;
+  background: #1890ff;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.github-result-card {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  padding: 40px;
+  background: var(--Grey-grey-3, #f5f5f5);
+  border-radius: 8px;
+}
+.github-image-container img {
+  width: 247px;
+  height: 247px;
+}
+.github-result-card-info {
+  margin-left: 30px;
+}
+.github-result-card-info h3 {
+  color: #1890ff;
+}

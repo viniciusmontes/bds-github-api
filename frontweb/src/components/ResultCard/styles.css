@@ -1,0 +1,16 @@
+.result-container-info {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  color: #737373;
+}
+.result-container-info h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.result-container-info p {
+  font-size: 16px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
